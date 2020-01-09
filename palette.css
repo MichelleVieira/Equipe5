@@ -1,34 +1,29 @@
-.azul { 
-    color: #00335E; 
-    background-color: #00335E; 
+.azul {
+  color: #00335e;
+  background-color: #00335e;
 }
 
 .laranja {
-    color: #FA8529;
-    background-color: #FA8529;
+  color: #fa8529;
+  background-color: #fa8529;
 }
 
 .branco {
-    color: #FFFFFF;
-    background-color: #FFFFFF;
+  color: #ffffff;
+  background-color: #ffffff;
 }
 
 .preto {
-    color: #0E0E0E;
-    background-color: #0E0E0E;
+  color: #0e0e0e;
+  background-color: #0e0e0e;
 }
 
 .cinza-claro {
-    color: #BDBDBD;
-    background-color: #BDBDBD;
+  color: #bdbdbd;
+  background-color: #bdbdbd;
 }
 
 .cinza-escuro {
-    color: #757575;
-    background-color: #757575;
+  color: #757575;
+  background-color: #757575;
 }
-
-
-
-
-
