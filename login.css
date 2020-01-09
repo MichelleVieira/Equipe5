@@ -1,0 +1,99 @@
+body {
+  background-image: url(img/ola.jpg);
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.content {
+  background-color: #ffffff;
+  width: 700px;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 4.5%;
+}
+
+.content img {
+  width: 200px;
+  margin: 0 32%;
+  padding-top: 2%;
+}
+
+.content form {
+  margin-left: 15%;
+}
+
+.content form label {
+  color: #00335e;
+  font-weight: bold;
+}
+
+.content form input {
+  width: 80% !important;
+  border-radius: 10px !important;
+  border-color: #00335e !important;
+}
+
+.content form a {
+  margin-right: 20%;
+  font-size: 0.8em;
+  color: #fa8529;
+  text-decoration-color: #fa8529;
+  float: right;
+}
+
+.button {
+  text-align: center;
+  margin-right: 25%;
+}
+
+.button button {
+  background-color: #fa8529;
+  border-color: #fa8529;
+  font-weight: bold;
+}
+
+.button p {
+  margin-top: 4%;
+  font-weight: bold;
+  color: #00335e;
+}
+
+.button button:hover,
+.button button:focus {
+  background-color: #fa8529;
+  border-color: #fa8529;
+}
+
+.content .cadastro {
+  margin-top: 2%;
+  margin-left: 50%;
+  color: #00335e;
+  display: block;
+}
+
+.content .cadastro span {
+  font-weight: bold;
+}
+
+/* Responsivo  */
+
+@media (max-width: 480px) {
+  /* estilos aqui */
+}
+
+@media (max-width: 767px) {
+  /* estilos aqui */
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  /* estilos aqui */
+}
+
+@media (min-width: 1200px) {
+  /* estilos aqui */
+}
