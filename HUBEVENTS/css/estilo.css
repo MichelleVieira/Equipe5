@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700&display=swap');
+* {
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand img {
+    width: 120px; 
+    
+   
+}
+
+.menu {
+    width: 100%;
+    background-color: #00335E;
+    height: 90px;
+       
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-family: 'Muli', sans-serif;
+}
+
+.botaologin{
+    color:white!important;
+    background-color: #00335E;
+    border-color: #FA8529;
+}
+
+.btn-outline-secondary {
+    color: #495057;
+    border-color: #FA8529;
+}
+
+.imagens {
+    width: 1170px!important;
+    height: 474px!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-caption {
+    color: white;
+    font-weight: bold;
+}
+h5 {
+    font-weight: bold; 
+}
+
+#location-section {
+    background-color: #00335E;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: 11px;
+}
+
+#copyright-section {
+    background-color: #00335E;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+    
+}
+#social-media img {
+    width: 15%;
+}
+
+.rodape {
+    margin-top: 11px;
+}
