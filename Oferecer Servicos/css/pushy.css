@@ -190,20 +190,33 @@
 }
 
 .exit-btn{
-  margin: 450px 43px 0 43px;
+  margin: 410px 13px 0 13px;
   background-color: #FA8529;
   border-color: #FA8529;
   color: #FFFFFF;
   border-radius: 10px;
-  padding: 10px 40px;
+  padding: 10px 70px;
   font-weight: bold;
 }
 
 .container-h1{
   font-size: 1.6em;
+  font-weight: bold;
   color: #00335E;
 }
 
+.menu li a{
+  text-decoration: none;
+}
+
+.menu-cs{
+color:#b3b3b1!important; 
+cursor: pointer;
+}
+
+.menu-cs:hover{
+  color: #FFFFFF!important;
+}
 /*# sourceMappingURL=pushy.css.map */
 
 
