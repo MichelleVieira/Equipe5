@@ -135,24 +135,23 @@
                         </select>
                        </div>
 
+                       <div class="form-group"> 
+                         <label for="message-value" class="col-form-label value">Valor *</label>
+                         <input class="form-control" placeholder="R$ 00,00" id="message-value"></input>
+                       </div>
+
                         <div class="form-group">
                           <label class="service-description" for="recipient-name" class="col-form-label">Descrição do serviço</label>
-                          <input type="text" class="form-control" id="recipient-name">
+                          <textarea id="recipient-name"  placeholder="Escreva..." rows="2" cols="49"></textarea>
                         </div>
-                        <div class="form-group" style="display: flex;">
-                            <div>
-                              <label for="message-value" class="col-form-label value">Valor *</label>
-                              <input class="form-control" id="message-value"></input>
-                            </div>
-                            <div class="pag-form">
-                             <label for="message-pag" class="col-form-label pag">Formas de pagamento *</label>
-                              <input class="form-control" id="message-pag"></input>
-                            </div>
+                        <div class="form-group">
+                            <label for="message-pag" class="col-form-label pag">Formas de pagamento *</label>
+                            <textarea id="message-pag" placeholder="Escreva..." rows="2" cols="49"></textarea>
                         </div>
                       </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Cadastrar</button>
+                    <button type="button" class="btn">Salvar</button>
                 </div>
             </div>
         </div>

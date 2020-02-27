@@ -34,10 +34,22 @@ select{
     background-color: #FFFFFF;
     cursor: pointer;
 }
-#message-value{
-    width: 60%;
+
+.modal-footer button{
+    margin: 0 40%;
+    padding: 5px 20px;
+    color: #FFFFFF;
+    background-color: #FA8529;
+    font-weight: bold;
 }
 
-.pag-form{
-    margin-left: 3%;
+#message-value{
+    width: 80%;
+    border-color: #a9a9a9;
+}
+
+#recipient-name,
+#message-pag{
+    border-radius: 10px;
+    padding-left: 2%;
 }
