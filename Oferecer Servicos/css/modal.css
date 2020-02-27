@@ -50,6 +50,62 @@ select{
 
 #recipient-name,
 #message-pag{
-    border-radius: 10px;
+    border-radius: 5px;
     padding-left: 2%;
 }
+
+.upload-photos-style{
+    display: flex;
+    width: 98.%;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    border: 1px solid #a9a9a9;
+    border-bottom: none;
+    background-color: #ebebeb;
+  }
+.upload-photos-style-two{
+    margin-left: 1%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-align: center;
+    border: 1px solid #a9a9a9;
+}
+
+.upload-photos-style-two p{
+    color: #00335E;
+    font-weight: bold;
+}
+
+.upload-photos-style-two img{
+    width: 40px;
+    margin-bottom: 2%;
+}
+
+.upload-photos-style img{
+    width: 30px;
+}
+  
+
+.photos{
+    margin-top: 2%;
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+.photos-button{
+    padding-right: 12%;
+    padding-left: 12%;
+    color: #00335E;
+}
+ul.verification-photos{
+    list-style-type: none;
+    margin-left: 2%;
+    font-size: 0.8em;
+    color: #757575;
+}
+
+
+
