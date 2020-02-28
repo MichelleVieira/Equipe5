@@ -1,0 +1,143 @@
+*{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+body{
+    background-color:white;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.contratar{
+    text-transform: uppercase;
+    background-color: #00335e;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5%;
+}
+
+.nav-contratar{
+    box-sizing: border-box;
+    display: flex;/*para os card ficarem lado a lado*/
+    justify-content: center;
+    margin-top: 500px;
+}
+
+.pagamento{
+    display: flex;/*para os card ficarem lado a lado*/
+    justify-content: center;
+}
+
+p{
+    float: right;
+    margin: 0 16%;
+    color: #00335e;
+}
+
+.botaosair{
+    padding: 10px 15px;
+    margin-top: 20px;
+    margin: 5% 42%;
+    text-transform: uppercase;
+    background-color: #fa8529;
+    color: #fff;
+    border: none;
+}
+
+
+.intro{
+    float: left;
+    width: 27%;
+    position: fixed;
+    padding-left: 10px;
+    z-index: 2;
+    background-color: black;
+    border: 3px solid #fa8529;
+    margin: 0;
+    padding-bottom: 100%;
+   padding-top: 5%;
+}
+
+
+.nav-cards{
+    background-color: #00335e;
+    margin: 10px;
+}
+
+
+.pos-f-t{
+    margin: 0;
+}
+
+.navbar1{
+    display: flexbox;
+    width: 73%;
+    float: right;
+    background-color: black;
+}
+
+.navbar-toggler1{
+    float: left;
+    margin: 1% 0;
+    
+}
+
+.navbar-nav{
+    float: right;
+    margin: 0 -70%;
+}
+
+
+.btn{
+align-content: flex-end;
+}
+
+.logo{
+    width: 35%;
+    margin: 10% 34%;
+}
+
+h1{
+    font-weight: 600;
+    margin: 1% 5%;
+    text-align: center;
+}
+
+.nome-servico{
+    color: #00335e;
+}
+
+h2{
+    font-weight: 600;
+    margin: 0 7%;
+    text-align: center;
+    border: black;
+    background-color: black;
+    color: white;
+}
+
+.navbar-toggler1{
+    margin-left: 1%;
+    text-transform: uppercase;
+    background-color: #fa8529;
+    color: #fff;
+    border: none;
+}
+
+.imagemDescricao{
+    width: 700px;
+    float: right;
+    margin: 0 20%;
+}
+
+.descricao{
+    
+    justify-content: center;
+    float: right;
+    margin-top: 20px;
+    width: 80%;
+    padding-left: 30px;
+}
+
+  
