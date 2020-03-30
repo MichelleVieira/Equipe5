@@ -65,3 +65,12 @@ body{
     }
 }
 
+@media(min-width: 768px) and (max-width: 1000px) {
+
+    .notification {
+        width: 100%;
+  
+  
+  }
+
+}
