@@ -11,15 +11,15 @@ body {
 
 .content {
   background-color: #ffffff;
-  width: 700px;
+  width: 40%;
   margin: 0 auto;
   border-radius: 10px;
-  margin-top: 4.5%;
+  margin-top: 9%;
 }
 
 .content img {
   width: 200px;
-  margin: 0 32%;
+  margin: 0px 36%;
   padding-top: 2%;
 }
 
@@ -48,8 +48,9 @@ body {
 
 .button {
   text-align: center;
-  margin-right: 25%;
+    margin-right: 15%;
 }
+
 
 .button button {
   background-color: #fa8529;
@@ -70,7 +71,8 @@ body {
 }
 
 .content .cadastro {
-  margin-top: 2%;
+  margin-top: 3%;
+  padding-bottom: 2%;
   margin-left: 50%;
   color: #00335e;
   display: block;
@@ -82,18 +84,42 @@ body {
 
 /* Responsivo  */
 
-@media (max-width: 480px) {
-  /* estilos aqui */
+
+@media (max-width: 600px) {
+
+  .content {
+    width: 96%!important;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .content img {
+    width: 150px;
+    margin: 0px 28%;
+  }
+
+  .content .cadastro {
+    margin-top: 4%;
+    text-align: center;
+    margin-left: 0;
+  }
+
 }
 
-@media (max-width: 767px) {
-  /* estilos aqui */
+@media(min-width: 768px) and (max-width: 1000px) {
+
+  .content {
+    width: 88%!important;
+
+
+}
 }
 
-@media (min-width: 768px) and (max-width: 979px) {
-  /* estilos aqui */
-}
+@media(min-width: 1001px) and (max-width: 1024px) {
 
-@media (min-width: 1200px) {
-  /* estilos aqui */
+  .content {
+    width: 69%!important;
+
+
+}
 }

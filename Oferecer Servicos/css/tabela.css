@@ -88,5 +88,42 @@ body{
     border-radius: 10px;
 }
 
+@media (max-width: 600px) {
+
+ .container-h1 {
+    margin-bottom: 6%;
+  }
+  .notification{
+      width: 100%;
+  }
+
+  .notification-titles {
+      display: block;
+  }
+  
+  .notification-contact {
+    display: block;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    list-style-type: none;
+  }
+
+  .notification-contact-two {
+     text-align: center;
+  }
+  .notification-contact-one {
+    margin-bottom: 6%;
+    font-size: 0.8em;
+}
+
+.notification-titles li {
+   padding: 0;
+   margin-left: 2%;
+}
+.notification-contact-two .whatsApp {
+    margin-bottom: 4%;
+}
+
+}
 
 

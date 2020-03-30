@@ -53,4 +53,30 @@ ul {
   text-align: center;
 }
 
+.nav-sub{
+  display: flex;
+  justify-content: space-between;
+
+}
+.button-exit{
+  margin: 19px;
+  background-color: #212121;
+  border: none;
+
+
+}
+.button-exit a{
+
+  color: #FFFFFF;
+  text-decoration: none;
+
+}
+
+.button-exit a:hover{
+
+  color: #FFFFFF;
+  text-decoration: none;
+
+}
+
 /*# sourceMappingURL=demo.css.map */
