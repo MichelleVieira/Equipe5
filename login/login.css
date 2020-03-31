@@ -40,6 +40,7 @@ body {
 
 .content form a {
   margin-right: 20%;
+  margin-top: -2%;
   font-size: 0.8em;
   color: #fa8529;
   text-decoration-color: #fa8529;
@@ -123,3 +124,38 @@ body {
 
 }
 }
+
+
+/* Modal de cadastro */
+.modal-content{
+  margin-top: 33%;
+}
+
+.title-regis{
+  color: #00335E;
+  font-weight: bold;
+}
+
+.modal-form-regis label,
+.modal-form-regis p{
+  color: #00335E;
+}
+
+.modal-decision{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -2%;
+  margin-bottom: 3%;
+}
+
+.modal-btn-enviar{
+  background-color: #00335E!important;
+  color: #ffffff!important;
+  border-radius: 5px!important;
+}
+
+.modal-btn-enviar{
+  background-color: #00335E!important;
+  color: #ffffff!important;
+}
+
