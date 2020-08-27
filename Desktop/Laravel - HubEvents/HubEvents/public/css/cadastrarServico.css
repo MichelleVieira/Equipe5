@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cadastrarServico{
+    margin-top: 10px;
+    margin-left: 35%;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #00335E;
+}
+
+.services,
+.service-description,
+.value,
+.pag {
+    font-size: 1em;
+    font-weight: bold;
+    color: #00335E;
+}
+
+select{
+    width: 80%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.modal-footer button{
+    margin: 0 56%;
+    padding: 5px 20px;
+    color: #FFFFFF;
+    background-color: #FA8529;
+    font-weight: bold;
+}
+
+#message-value{
+    width: 80%;
+    border-color: #a9a9a9;
+}
+
+#recipient-name,
+#message-pag{
+    border-radius: 5px;
+}
+
+.upload-photos-style{
+    display: flex;
+    height: 40px;
+    width: 81%;
+    margin-top: 1%;
+    margin-top: 2%;
+    padding-left: 2%;
+    border: 1px solid #a9a9a9;
+    border-bottom: none;
+    background-color: #ebebeb;
+  }
+.upload-photos-style-two{
+    width: 81%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    border: 1px solid #a9a9a9;
+}
+
+.upload-photos-style-two p{
+    color: #00335E;
+    font-weight: bold;
+}
+
+.upload-photos-style-two img{
+    width: 40px;
+    margin-bottom: 2%;
+}
+
+.upload-photos-style img{
+    width: 30px;
+}
+  
+
+.photos{
+    margin-top: 0.6%;
+    margin-left: 1%;
+    font-weight: bold;
+}
+
+.photos-button{
+    padding-right: 12%;
+    padding-left: 12%;
+    color: #00335E;
+}
+ul.verification-photos{
+    list-style-type: none;
+    margin-left: 2%;
+    font-size: 0.8em;
+    color: #757575;
+}
+
+@media (max-width: 320px) {
+
+    .photos-button {
+        width: 49%;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .cadastrarServico {
+
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #recipient-name, 
+    #message-pag {
+        width: 103%;
+    }
+
+    .upload-photos-style {
+        width: 102%;
+        
+    }
+
+    .photos {
+      margin-top: 3%;
+      margin-left: 3%;
+    }
+
+    .upload-photos-style-two {
+        width: 102%;
+    }
+
+    .upload-photos-style-two p {
+        width: 98%;
+        font-size: 0.9em;
+    }
+
+    .photos-button {
+        font-size: 0.7em;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .modal-footer button {
+        margin: 0px 35%;
+    }
+
+}
+
+

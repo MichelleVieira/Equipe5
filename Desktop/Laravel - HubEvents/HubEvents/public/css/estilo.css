@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700&display=swap');
+* {
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Muli', sans-serif;
+}
+
+.navbar-brand img {
+    width: 120px; 
+    
+   
+}
+
+.menu {
+    width: 100%;
+    background-color: #00335E;
+    height: 15%;
+       
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-family: 'Muli', sans-serif;
+}
+
+.botaologin{
+    color:white!important;
+    background-color: #00335E;
+    border-color: #FA8529;
+}
+
+.btn-outline-secondary {
+    color: #495057;
+    border-color: #FA8529;
+}
+
+.imagens {
+    width: 1060px!important;
+    height: 454px!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-overlay-solid{
+    width: 100%!important;
+    height: 200px!important;
+}
+
+.carousel-caption {
+    color: white;
+    font-weight: bold;
+}
+
+.frase-carrossel{
+    font-size: 20px;
+}
+
+.texto_servico{
+    margin: 0 35%;
+    color: black;
+}
+.sobre {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+.alinha-sobre{
+    
+    text-align: left;
+    padding-left: 100px;
+}
+
+.alinha-logo{
+    
+    text-align: right!important;
+    padding-right: 100px!important;
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    max-width: 100%!important;
+    height: auto!important;
+}
+
+.sobre-simplicidade{
+    background-color: rgb(248, 168, 107);
+    width: 100%;
+    display: block;
+}
+
+.img-sobre{
+    width: 550px;
+    height: 400px;
+    
+}
+
+.fraseEfeito h4, h3 {
+    text-align: center!important;
+    font-weight: bold;
+    color: #fff;
+}
+
+button{
+    text-transform: uppercase;
+    background-color: #fa8529;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+}
+.opcoes{
+    
+    display: flex;/*para os card ficarem lado a lado*/
+    flex-wrap: wrap; /*permite quebra de linha para ajustar melhor os elementos*/
+    justify-content: center!important; 
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 15px;
+    
+    
+}
+
+.cards{
+    width: 300px;
+    height: 150px;
+    position: center;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    max-width: 100%;
+    height: 300px;
+    
+}
+
+.nav-cards{
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 10px;
+    border-radius: 25px;
+    border: 5px;
+    
+}
+
+.verMais{
+    padding: 10px 15px;
+    margin-top: 20px;
+    margin: 5% 30%; 
+    background-color: #fa8529 ; 
+    color: #fff;
+}
+
+
+
+#location-section {
+    background-color: #00335E;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+#copyright-section {
+    background-color: #00335E;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+    
+}
+#social-media img {
+    width: 15%;
+}
+
+@media(max-width: 600px){ 
+    aside {
+        position: relative;
+        width: 100%;
+    } 
+
+    main {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 414px) {
+    ul li  {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+@media(min-width: 320px) and (max-width: 823px){
+    .procurar {
+        margin-left: 33%;
+    }
+
+    .carousel-caption {
+        margin-right: 20%;
+        text-align: center;
+        
+    }
+    .frase-carrossel {
+        font-size: 10px;
+        
+    }
+}
+

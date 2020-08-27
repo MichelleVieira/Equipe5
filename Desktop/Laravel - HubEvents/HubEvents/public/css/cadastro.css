@@ -1,0 +1,41 @@
+.cadastrarUsuario{
+    margin-top: 10px;
+    margin-left: 40%; 
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #00335E;
+    padding: 10px 40px;
+    padding-top: 30px;
+}
+.services,
+.service-description,
+.value,
+.pag {
+    font-size: 1em;
+    font-weight: bold;
+    color: #00335E;
+}
+
+#message-value{
+    width: 70%;
+    border-color: #a9a9a9;
+}
+
+/* Container */
+#container {
+    position: relative;
+    padding: 10px 40px;
+    padding-top: 30px;
+    
+  }
+
+  #message-pag{
+    border-radius: 5px;
+}
+
+.form-group{
+    
+    margin-bottom: 5px!important;
+}
+
+

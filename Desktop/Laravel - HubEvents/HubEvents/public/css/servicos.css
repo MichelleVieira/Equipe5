@@ -1,0 +1,127 @@
+*{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+body{
+    background-color:white;
+    font-family: sans-serif;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+button{
+    text-transform: uppercase;
+    background-color: #fa8529;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+}
+
+.botaosair{
+    padding: 10px 15px;
+    margin-top: 20px;
+    margin: 5% 42%;
+}
+
+.cards{
+    width: 300px;
+    position: center;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    max-width: 100%;
+    height: 300px;
+}
+
+.intro{
+    float: left;
+    width: 27%;
+    position: fixed;
+    padding-left: 10px;
+    z-index: 2;
+    background-color: black;
+    border: 3px solid #fa8529;
+    margin: 0;
+    padding-bottom: 100%;
+   padding-top: 5%;
+}
+
+.opcoes{
+    box-sizing: border-box;
+    display: flex;/*para os card ficarem lado a lado*/
+    
+    justify-content: center;
+    float: right;
+    margin-top: 20px;
+    width: 80%;
+    padding-left: 30px;
+    
+}
+
+.nav-cards{
+    background-color: #00335e;
+    margin: 10px;
+}
+
+.navbar{
+width: 73%;
+margin: 0 auto;
+background-color: white;
+float: right;
+}
+
+h1{
+    font-weight: 600;
+    margin: 5%;
+    text-align: center;
+}
+
+p{
+    margin: 0 35%;
+    color: white;
+}
+
+.pos-f-t{
+    margin: 0;
+}
+
+.navbar1{
+    display: flexbox;
+    width: 73%;
+    float: right;
+    background-color: black;
+}
+
+.navbar-toggler1{
+    float: left;
+    margin: 1% 0;
+    
+}
+
+.navbar-nav{
+    float: right;
+    margin: 0 -70%;
+}
+
+.lupa{
+    width: 20px;
+    border: none;
+}
+.btn{
+align-content: flex-end;
+}
+
+.logo{
+    width: 35%;
+    margin: 10% 34%;
+}
+
+.verMais{
+    padding: 10px 15px;
+    margin-top: 20px;
+    margin: 5% 30%;   
+}
+
+.navbar-toggler1{
+    margin-left: 1%;
+}
